@@ -5,4 +5,4 @@ function Hello()
     return 5*laure;
 }
 
-console.log(Hello);
+console.log(Hello());
