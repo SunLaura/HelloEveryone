@@ -1,8 +1,14 @@
-var laure = 15;
+class Hello{
+    
+    constructor(Message)
+    {
+        this.Message = Message;
+    }
 
-function Hello()
-{
-    return 5*laure;
+    callMe() {
+        return this.Message;
+    }
 }
 
-console.log(Hello());
+var h = new Hello('Hello');
+console.log(h instanceof Hello);
